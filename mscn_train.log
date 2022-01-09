@@ -1,0 +1,144 @@
+E:\learnedcardinalities\venv\Scripts\python.exe E:/learnedcardinalities/train.py --queries 100000 --epochs 100 synthetic
+Loaded queries
+Loaded bitmaps
+min log(label): 0.0
+max log(label): 19.94772801931604
+Number of training samples: 90000
+Number of validation samples: 10000
+Created TensorDataset for training data
+Created TensorDataset for validation data
+Epoch 0, loss: 91.97254186326808
+Epoch 1, loss: 8.589083698662845
+Epoch 2, loss: 6.15207996151664
+Epoch 3, loss: 5.4410968748005955
+Epoch 4, loss: 4.9762674488804555
+Epoch 5, loss: 4.710278760303151
+Epoch 6, loss: 4.4828770512884315
+Epoch 7, loss: 4.317586397582835
+Epoch 8, loss: 4.1770331263542175
+Epoch 9, loss: 4.072286367416382
+Epoch 10, loss: 3.9953811683438043
+Epoch 11, loss: 3.9329453246159987
+Epoch 12, loss: 3.873250909826972
+Epoch 13, loss: 3.8157075399702247
+Epoch 14, loss: 3.7579225437207655
+Epoch 15, loss: 3.7071370509537784
+Epoch 16, loss: 3.668554566123269
+Epoch 17, loss: 3.612520757046613
+Epoch 18, loss: 3.5588781129230154
+Epoch 19, loss: 3.509242978962985
+Epoch 20, loss: 3.468650064685128
+Epoch 21, loss: 3.430249807509509
+Epoch 22, loss: 3.3931719958782196
+Epoch 23, loss: 3.3591682341965763
+Epoch 24, loss: 3.3219437924298374
+Epoch 25, loss: 3.278604057702151
+Epoch 26, loss: 3.240124236453663
+Epoch 27, loss: 3.200460309332067
+Epoch 28, loss: 3.1595036414536564
+Epoch 29, loss: 3.1177638552405615
+Epoch 30, loss: 3.073289892890237
+Epoch 31, loss: 3.0426401685584676
+Epoch 32, loss: 3.006099218671972
+Epoch 33, loss: 2.979893692515113
+Epoch 34, loss: 2.9503608129241248
+Epoch 35, loss: 2.9241133982484993
+Epoch 36, loss: 2.9098228270357307
+Epoch 37, loss: 2.888355545022271
+Epoch 38, loss: 2.8668062415989963
+Epoch 39, loss: 2.850991893898357
+Epoch 40, loss: 2.8312391394918617
+Epoch 41, loss: 2.8139444806359033
+Epoch 42, loss: 2.8119695024056868
+Epoch 43, loss: 2.791752964258194
+Epoch 44, loss: 2.775070171464573
+Epoch 45, loss: 2.769382655620575
+Epoch 46, loss: 2.7584617652676324
+Epoch 47, loss: 2.741015323183753
+Epoch 48, loss: 2.725974603132768
+Epoch 49, loss: 2.723645855079998
+Epoch 50, loss: 2.709208396348086
+Epoch 51, loss: 2.705869276415218
+Epoch 52, loss: 2.7014564817601983
+Epoch 53, loss: 2.6834932538596066
+Epoch 54, loss: 2.6911353794011204
+Epoch 55, loss: 2.680737015875903
+Epoch 56, loss: 2.6639992242509667
+Epoch 57, loss: 2.65343054858121
+Epoch 58, loss: 2.6448525109074335
+Epoch 59, loss: 2.630872352556749
+Epoch 60, loss: 2.621827480467883
+Epoch 61, loss: 2.618015619841489
+Epoch 62, loss: 2.607943082397634
+Epoch 63, loss: 2.5908861973068933
+Epoch 64, loss: 2.591525145552375
+Epoch 65, loss: 2.6000169976191088
+Epoch 66, loss: 2.5918710340153086
+Epoch 67, loss: 2.5757431875575674
+Epoch 68, loss: 2.5814384899356146
+Epoch 69, loss: 2.5696278620849955
+Epoch 70, loss: 2.5654197308150204
+Epoch 71, loss: 2.5381423397497698
+Epoch 72, loss: 2.5240692658857866
+Epoch 73, loss: 2.539924746209925
+Epoch 74, loss: 2.522898457267068
+Epoch 75, loss: 2.505682498216629
+Epoch 76, loss: 2.4909513728185133
+Epoch 77, loss: 2.4889521382071753
+Epoch 78, loss: 2.4835460754958065
+Epoch 79, loss: 2.482270289551128
+Epoch 80, loss: 2.470171657475558
+Epoch 81, loss: 2.46585151553154
+Epoch 82, loss: 2.451637013392015
+Epoch 83, loss: 2.4541090618480337
+Epoch 84, loss: 2.447548820213838
+Epoch 85, loss: 2.447850525379181
+Epoch 86, loss: 2.444685935974121
+Epoch 87, loss: 2.425354301929474
+Epoch 88, loss: 2.4347337944941088
+Epoch 89, loss: 2.450301679697904
+Epoch 90, loss: 2.4601835310459137
+Epoch 91, loss: 2.4751352207227186
+Epoch 92, loss: 2.4787114506418053
+Epoch 93, loss: 2.444480847228657
+Epoch 94, loss: 2.4435199363665148
+Epoch 95, loss: 2.4201905239712107
+Epoch 96, loss: 2.3995846564119514
+Epoch 97, loss: 2.3960908366875215
+Epoch 98, loss: 2.374196694655852
+Epoch 99, loss: 2.369133074175228
+Prediction time per training sample: 0.09067739910549587
+Prediction time per validation sample: 0.08880214691162108
+E:\learnedcardinalities\mscn\util.py:109: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  labels_norm = np.array(labels_norm, dtype=np.float32)
+
+Q-Error training set:
+Median: 1.192222233593543
+90th percentile: 3.0
+95th percentile: 6.2865565381151285
+99th percentile: 27.0
+Max: 621.0
+Mean: 2.413554820700414
+
+Q-Error validation set:
+Median: 1.2160020875404574
+90th percentile: 4.0
+95th percentile: 9.079545454545446
+99th percentile: 44.0
+Max: 1184.8
+Mean: 3.390221924508826
+
+Loaded queries
+Loaded bitmaps
+Number of test samples: 5000
+Prediction time per test sample: 0.08680143356323242
+
+Q-Error synthetic:
+Median: 1.2085054432153455
+90th percentile: 3.64159340659341
+95th percentile: 7.611371432240094
+99th percentile: 33.0
+Max: 2314.5
+Mean: 3.285567709484262
+
+Process finished with exit code 0

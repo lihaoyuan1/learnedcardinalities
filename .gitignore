@@ -1,0 +1,8 @@
+data/cache.csv
+data/lubm100.csv
+word2vec/w2v.wordvectors
+word2vec/w2v.wordvectors.vectors.npy
+
+venv
+
+.idea

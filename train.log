@@ -1,0 +1,210 @@
+E:\CODE\learnedcardinalities\venv\Scripts\python.exe E:/CODE/learnedcardinalities/train.py
+2022-01-08 21:00:56,151 data INFO: Loaded queries
+2022-01-08 21:00:57,349 data INFO: Loaded bitmaps
+2022-01-08 21:00:59,960 gensim.utils INFO: loading KeyedVectors object from word2vec/w2v.wordvectors
+2022-01-08 21:01:04,318 gensim.utils INFO: loading vectors from word2vec/w2v.wordvectors.vectors.npy with mmap=r
+2022-01-08 21:01:04,429 gensim.utils INFO: KeyedVectors lifecycle event {'fname': 'word2vec/w2v.wordvectors', 'datetime': '2022-01-08T21:01:04.395795', 'gensim': '4.1.2', 'python': '3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.18363-SP0', 'event': 'loaded'}
+min log(label): 0.0
+max log(label): 23.864117797062303
+2022-01-08 21:07:35,616 data INFO: Number of training samples: 90000
+2022-01-08 21:07:35,616 data INFO: Number of validation samples: 10000
+2022-01-08 21:08:26,574 data INFO: Created TensorDataset for training data
+2022-01-08 21:08:32,163 data INFO: Created TensorDataset for validation data
+2022-01-08 21:09:02,049 train INFO: Epoch 0, loss: 2273.7809351140804
+2022-01-08 21:09:28,274 train INFO: Epoch 1, loss: 17.495316299525175
+2022-01-08 21:09:54,649 train INFO: Epoch 2, loss: 6.451309350403872
+2022-01-08 21:10:21,189 train INFO: Epoch 3, loss: 4.186992154880003
+2022-01-08 21:10:48,005 train INFO: Epoch 4, loss: 3.4479878680272535
+2022-01-08 21:11:14,287 train INFO: Epoch 5, loss: 3.104444300586527
+2022-01-08 21:11:40,976 train INFO: Epoch 6, loss: 2.8754460107196462
+2022-01-08 21:12:07,351 train INFO: Epoch 7, loss: 2.7195451205426995
+2022-01-08 21:12:33,909 train INFO: Epoch 8, loss: 2.6048846624114295
+2022-01-08 21:13:00,903 train INFO: Epoch 9, loss: 2.5231766998767853
+2022-01-08 21:13:27,903 train INFO: Epoch 10, loss: 2.4510300105268303
+2022-01-08 21:13:54,733 train INFO: Epoch 11, loss: 2.3902709755030545
+2022-01-08 21:14:21,531 train INFO: Epoch 12, loss: 2.3354701806198466
+2022-01-08 21:14:48,331 train INFO: Epoch 13, loss: 2.2850200208750637
+2022-01-08 21:15:15,086 train INFO: Epoch 14, loss: 2.235954586755146
+2022-01-08 21:15:41,841 train INFO: Epoch 15, loss: 2.1936809623783287
+2022-01-08 21:16:08,708 train INFO: Epoch 16, loss: 2.1559300937435846
+2022-01-08 21:16:36,194 train INFO: Epoch 17, loss: 2.120889288457957
+2022-01-08 21:17:03,421 train INFO: Epoch 18, loss: 2.091085287657651
+2022-01-08 21:17:30,260 train INFO: Epoch 19, loss: 2.0647143599661915
+2022-01-08 21:17:57,241 train INFO: Epoch 20, loss: 2.0421900193799627
+2022-01-08 21:18:24,090 train INFO: Epoch 21, loss: 2.0231778730045664
+2022-01-08 21:18:53,137 train INFO: Epoch 22, loss: 2.0043418420986696
+2022-01-08 21:19:20,825 train INFO: Epoch 23, loss: 1.9886163459582762
+2022-01-08 21:19:47,782 train INFO: Epoch 24, loss: 1.9719816974618218
+2022-01-08 21:20:14,717 train INFO: Epoch 25, loss: 1.9564560827883808
+2022-01-08 21:20:41,506 train INFO: Epoch 26, loss: 1.9444880228150974
+2022-01-08 21:21:08,362 train INFO: Epoch 27, loss: 1.9300138232382862
+2022-01-08 21:21:35,392 train INFO: Epoch 28, loss: 1.916861360723322
+2022-01-08 21:22:02,416 train INFO: Epoch 29, loss: 1.9062940871173686
+2022-01-08 21:22:29,503 train INFO: Epoch 30, loss: 1.8919737311926754
+2022-01-08 21:22:57,173 train INFO: Epoch 31, loss: 1.8786623247645118
+2022-01-08 21:23:24,305 train INFO: Epoch 32, loss: 1.8686805110086093
+2022-01-08 21:23:51,096 train INFO: Epoch 33, loss: 1.856340929865837
+2022-01-08 21:24:17,945 train INFO: Epoch 34, loss: 1.8482397577979348
+2022-01-08 21:24:44,845 train INFO: Epoch 35, loss: 1.8386089422486045
+2022-01-08 21:25:11,596 train INFO: Epoch 36, loss: 1.8331494995138862
+2022-01-08 21:25:38,307 train INFO: Epoch 37, loss: 1.8187625394626097
+2022-01-08 21:26:05,108 train INFO: Epoch 38, loss: 1.8099024864760311
+2022-01-08 21:26:32,037 train INFO: Epoch 39, loss: 1.802995505658063
+2022-01-08 21:26:58,632 train INFO: Epoch 40, loss: 1.7980313748121262
+2022-01-08 21:27:25,371 train INFO: Epoch 41, loss: 1.789656106721271
+2022-01-08 21:27:52,170 train INFO: Epoch 42, loss: 1.776259102604606
+2022-01-08 21:28:18,984 train INFO: Epoch 43, loss: 1.7689356546510349
+2022-01-08 21:28:45,809 train INFO: Epoch 44, loss: 1.7635546123439616
+2022-01-08 21:29:12,690 train INFO: Epoch 45, loss: 1.7670872617851605
+2022-01-08 21:29:39,340 train INFO: Epoch 46, loss: 1.7631622119383379
+2022-01-08 21:30:06,137 train INFO: Epoch 47, loss: 1.7499490651217373
+2022-01-08 21:30:32,849 train INFO: Epoch 48, loss: 1.7501248487017371
+2022-01-08 21:31:00,227 train INFO: Epoch 49, loss: 1.748610325834968
+2022-01-08 21:31:27,086 train INFO: Epoch 50, loss: 1.7445455261252143
+2022-01-08 21:31:54,162 train INFO: Epoch 51, loss: 1.7265906428748912
+2022-01-08 21:32:20,751 train INFO: Epoch 52, loss: 1.7161345414140008
+2022-01-08 21:32:47,509 train INFO: Epoch 53, loss: 1.7125072059306232
+2022-01-08 21:33:14,308 train INFO: Epoch 54, loss: 1.7147453264756636
+2022-01-08 21:33:41,170 train INFO: Epoch 55, loss: 1.7108890156854282
+2022-01-08 21:34:07,852 train INFO: Epoch 56, loss: 1.703673324801705
+2022-01-08 21:34:34,626 train INFO: Epoch 57, loss: 1.6879457655278118
+2022-01-08 21:35:01,697 train INFO: Epoch 58, loss: 1.6820094368674539
+2022-01-08 21:35:28,402 train INFO: Epoch 59, loss: 1.6747407764196396
+2022-01-08 21:35:55,397 train INFO: Epoch 60, loss: 1.6711591455069454
+2022-01-08 21:36:22,390 train INFO: Epoch 61, loss: 1.6703922518275
+2022-01-08 21:36:49,901 train INFO: Epoch 62, loss: 1.6624786935069344
+2022-01-08 21:37:22,279 train INFO: Epoch 63, loss: 1.6674249104478143
+2022-01-08 21:37:50,729 train INFO: Epoch 64, loss: 1.6667041819203983
+2022-01-08 21:38:19,225 train INFO: Epoch 65, loss: 1.686786033890464
+2022-01-08 21:38:46,697 train INFO: Epoch 66, loss: 1.6634822487831116
+2022-01-08 21:39:14,048 train INFO: Epoch 67, loss: 1.6441982320763848
+2022-01-08 21:39:41,051 train INFO: Epoch 68, loss: 1.638563256372105
+2022-01-08 21:40:08,236 train INFO: Epoch 69, loss: 1.620287155563181
+2022-01-08 21:40:35,178 train INFO: Epoch 70, loss: 1.598746282133189
+2022-01-08 21:41:02,239 train INFO: Epoch 71, loss: 1.5911075540564277
+2022-01-08 21:41:29,319 train INFO: Epoch 72, loss: 1.5840595364570618
+2022-01-08 21:41:56,616 train INFO: Epoch 73, loss: 1.5777373097159646
+2022-01-08 21:42:23,591 train INFO: Epoch 74, loss: 1.5721438174897975
+2022-01-08 21:42:53,134 train INFO: Epoch 75, loss: 1.5735789632255381
+2022-01-08 21:43:20,300 train INFO: Epoch 76, loss: 1.5628217540004037
+2022-01-08 21:43:48,088 train INFO: Epoch 77, loss: 1.5578568442301317
+2022-01-08 21:44:15,349 train INFO: Epoch 78, loss: 1.57095015455376
+2022-01-08 21:44:42,362 train INFO: Epoch 79, loss: 1.5635205927220257
+2022-01-08 21:45:09,443 train INFO: Epoch 80, loss: 1.5526700493964283
+2022-01-08 21:45:36,507 train INFO: Epoch 81, loss: 1.5600300065495751
+2022-01-08 21:46:03,700 train INFO: Epoch 82, loss: 1.552400686524131
+2022-01-08 21:46:30,893 train INFO: Epoch 83, loss: 1.5510492609305815
+2022-01-08 21:46:57,966 train INFO: Epoch 84, loss: 1.5461237999525936
+2022-01-08 21:47:25,002 train INFO: Epoch 85, loss: 1.5359758815982125
+2022-01-08 21:47:52,039 train INFO: Epoch 86, loss: 1.5269083001396873
+2022-01-08 21:48:19,155 train INFO: Epoch 87, loss: 1.5148315334861928
+2022-01-08 21:48:46,817 train INFO: Epoch 88, loss: 1.5148508088155226
+2022-01-08 21:49:13,814 train INFO: Epoch 89, loss: 1.5277784128080716
+2022-01-08 21:49:40,880 train INFO: Epoch 90, loss: 1.553297370672226
+2022-01-08 21:50:08,037 train INFO: Epoch 91, loss: 1.530746040019122
+2022-01-08 21:50:35,235 train INFO: Epoch 92, loss: 1.506572352214293
+2022-01-08 21:51:02,519 train INFO: Epoch 93, loss: 1.4971752153201536
+2022-01-08 21:51:29,556 train INFO: Epoch 94, loss: 1.5308790504932404
+2022-01-08 21:51:56,694 train INFO: Epoch 95, loss: 1.5020936713977293
+2022-01-08 21:52:23,642 train INFO: Epoch 96, loss: 1.4915133701129393
+2022-01-08 21:52:50,733 train INFO: Epoch 97, loss: 1.4882224798202515
+2022-01-08 21:53:17,654 train INFO: Epoch 98, loss: 1.5422534292394465
+2022-01-08 21:53:44,508 train INFO: Epoch 99, loss: 1.5649979642846368
+2022-01-08 21:53:56,608 train INFO: Prediction time per training sample: 0.07638840410444472
+2022-01-08 21:53:58,386 train INFO: Prediction time per validation sample: 0.07696745395660401
+E:\CODE\learnedcardinalities\utils.py:133: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  labels_norm = np.array(labels_norm, dtype=np.float32)
+2022-01-08 21:53:59,018 train INFO:
+Q-Error training set:
+Median: 1.288946819603754
+90th percentile: 2.372513349422529
+95th percentile: 3.027042235161207
+99th percentile: 6.0
+Max: 88.81215744892874
+2022-01-08 21:53:59,487 train INFO:
+Q-Error validation set:
+Mean: 1.6142884792543468
+Median: 1.3004584632807163
+90th percentile: 2.6179650888570936
+95th percentile: 3.5
+99th percentile: 9.74900193595648
+Max: 211.02205882352942
+Mean: 1.8756671681063701
+2022-01-08 21:53:59,664 data INFO: Loaded queries
+2022-01-08 21:53:59,709 data INFO: Loaded bitmaps
+2022-01-08 21:53:59,721 gensim.utils INFO: loading KeyedVectors object from word2vec/w2v.wordvectors
+2022-01-08 21:54:03,863 gensim.utils INFO: loading vectors from word2vec/w2v.wordvectors.vectors.npy with mmap=r
+2022-01-08 21:54:03,904 gensim.utils INFO: KeyedVectors lifecycle event {'fname': 'word2vec/w2v.wordvectors', 'datetime': '2022-01-08T21:54:03.904177', 'gensim': '4.1.2', 'python': '3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.18363-SP0', 'event': 'loaded'}
+min log(label): 0.0
+max log(label): 13.929583609019485
+Number of test samples: 1000
+E:\CODE\learnedcardinalities\utils.py:133: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  labels_norm = np.array(labels_norm, dtype=np.float32)
+Prediction time per test sample: 0.03811526298522949
+
+Q-Error join0:
+Median: 1.0638951102324765
+90th percentile: 1.5026716589861753
+95th percentile: 1.9448568027449058
+99th percentile: 3.0
+Max: 40.125
+Mean: 1.2597654508398635
+2022-01-08 21:54:11,269 data INFO: Loaded queries
+2022-01-08 21:54:11,341 data INFO: Loaded bitmaps
+2022-01-08 21:54:11,358 gensim.utils INFO: loading KeyedVectors object from word2vec/w2v.wordvectors
+2022-01-08 21:54:13,811 gensim.utils INFO: loading vectors from word2vec/w2v.wordvectors.vectors.npy with mmap=r
+2022-01-08 21:54:13,812 gensim.utils INFO: KeyedVectors lifecycle event {'fname': 'word2vec/w2v.wordvectors', 'datetime': '2022-01-08T21:54:13.812875', 'gensim': '4.1.2', 'python': '3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.18363-SP0', 'event': 'loaded'}
+min log(label): 0.0
+max log(label): 14.878408964021485
+Number of test samples: 1000
+E:\CODE\learnedcardinalities\utils.py:133: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  labels_norm = np.array(labels_norm, dtype=np.float32)
+Prediction time per test sample: 0.045015573501586914
+
+Q-Error join1:
+Median: 1.323168283219597
+90th percentile: 2.112945786451469
+95th percentile: 2.6330408741873503
+99th percentile: 4.505551181102357
+Max: 9.14790996784566
+Mean: 1.51513856745166
+2022-01-08 21:54:20,408 data INFO: Loaded queries
+2022-01-08 21:54:20,495 data INFO: Loaded bitmaps
+2022-01-08 21:54:20,521 gensim.utils INFO: loading KeyedVectors object from word2vec/w2v.wordvectors
+2022-01-08 21:54:22,942 gensim.utils INFO: loading vectors from word2vec/w2v.wordvectors.vectors.npy with mmap=r
+2022-01-08 21:54:22,944 gensim.utils INFO: KeyedVectors lifecycle event {'fname': 'word2vec/w2v.wordvectors', 'datetime': '2022-01-08T21:54:22.944226', 'gensim': '4.1.2', 'python': '3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.18363-SP0', 'event': 'loaded'}
+min log(label): 0.0
+max log(label): 20.551141008766017
+Number of test samples: 1000
+Prediction time per test sample: 0.06500744819641113
+
+Q-Error join2:
+E:\CODE\learnedcardinalities\utils.py:133: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  labels_norm = np.array(labels_norm, dtype=np.float32)
+Median: 1.6998282729412062
+90th percentile: 3.5498104294859845
+95th percentile: 5.8803391442360695
+99th percentile: 12.0
+Max: 37.0
+Mean: 2.3064738215492904
+2022-01-08 21:54:28,512 data INFO: Loaded queries
+2022-01-08 21:54:28,561 data INFO: Loaded bitmaps
+2022-01-08 21:54:28,576 gensim.utils INFO: loading KeyedVectors object from word2vec/w2v.wordvectors
+2022-01-08 21:54:30,986 gensim.utils INFO: loading vectors from word2vec/w2v.wordvectors.vectors.npy with mmap=r
+2022-01-08 21:54:30,987 gensim.utils INFO: KeyedVectors lifecycle event {'fname': 'word2vec/w2v.wordvectors', 'datetime': '2022-01-08T21:54:30.987389', 'gensim': '4.1.2', 'python': '3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.18363-SP0', 'event': 'loaded'}
+min log(label): 0.0
+max log(label): 21.998716436297876
+Number of test samples: 500
+Prediction time per test sample: 0.10600566864013672
+
+Q-Error extend:
+Median: 1.5358718098138413
+90th percentile: 5.01709251101322
+95th percentile: 9.006186774766782
+99th percentile: 29.01283696335558
+Max: 73.0
+Mean: 2.949077599352225
+E:\CODE\learnedcardinalities\utils.py:133: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  labels_norm = np.array(labels_norm, dtype=np.float32)
+
+Process finished with exit code 0
